@@ -6,8 +6,6 @@ import FilesView from './components/filesView/FilesView';
 import SideIcons from "./components/sideIcons";
 import { auth, provider } from "./firebase";
 
-
-
 function App() {
   const [user, setUser] = useState()
   
